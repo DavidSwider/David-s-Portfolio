@@ -1,5 +1,5 @@
 import React from 'react'
-import stormchaser from '../assets/stormchaser.jpg'
+
 const ProfilePage = () => {
   const skills = [ 
   {title: "Strom chaser", image: "https://upload.wikimedia.org/wikipedia/en/4/4a/Storm_Chasers_title_logo.jpg", repolink: " https://github.com/DavidSwider/Strom-Chaser", deployedlink: "https://strom-chaser.onrender.com"},
