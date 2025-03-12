@@ -1,17 +1,12 @@
-// This is a static page mocking an "About Us" section for our fake user data
+import profile from "../assets/profilepic.jpg"       // This is a static page mocking an "About Us" section for our fake user data
 export default function AboutPage() {
   return (
     <div className="container pt-4">
+      <img src= {profile} alt="placeholder" style={{ width: "200px", height: "200px", borderRadius: "20%" }} />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+      Hi there! I’m David, a passionate Full Stack Engineer with a deep love for coding and problem-solving. My journey in tech started with an eagerness to understand how the web works, and over the years, I’ve honed my skills in both front-end and back-end development. With a solid foundation in HTML, CSS, JavaScript, and modern frameworks like React and Node.js, I bring the best of both worlds to the table: creating seamless, user-friendly experiences on the front end while ensuring that everything works perfectly behind the scenes.
       </p>
-      <section className="features-icons bg-light text-center m-4">
+      {/* <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
             <div className="col-lg-4">
@@ -50,15 +45,9 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+      I believe that great software is built through collaboration and continuous learning. That’s why I’m always seeking to expand my knowledge and take on new challenges. Whether it’s optimizing performance, building scalable applications, or crafting beautiful user interfaces, I’m all about making sure the technology serves its purpose—solving real problems and creating value for users.
       </p>
     </div>
   );

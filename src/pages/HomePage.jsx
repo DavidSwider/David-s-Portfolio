@@ -23,7 +23,9 @@ export default function HomePage() {
   // Iterate over each mock user to display their abridged profile data and a link to their page
   return (
     <div className="container pt-4">
-      <h1>HOME PAGE</h1>
+      <h2>Hi, I'm David – a passionate Full-Stack Developer dedicated to creating modern, responsive, and user-friendly web applications. With experience in frontend and backend technologies, I love solving problems and bringing ideas to life through code.
+
+Explore my work, learn more about me, or get in touch – let's build something amazing together!</h2>
  
     </div>
   );

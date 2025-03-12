@@ -1,0 +1,7 @@
+.header {
+    position: relative;  /* Ensure it's not overlapping the content */
+    z-index: 10;         /* Higher than background but lower than nav */
+    background: #fff;    /* Ensure visibility */
+    padding: 10px 20px;
+  }
+  
