@@ -85,14 +85,14 @@ Submit the contact form with valid inputs.
 
 The portfolio is deployed online at:
 
-🔗 Live Portfolio
+🔗 Live Portfolio: https://davidsportfolio1.netlify.app/
 
 Github repository: https://github.com/DavidSwider/David-s-Portfolio
 
 #Contact
 📧 Email: Davidswider6@gmail.com
 🔗 GitHub: https://github.com/DavidSwider
-🔗 Netlify: YourProfile
+🔗 Netlify: https://davidsportfolio1.netlify.app/
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
